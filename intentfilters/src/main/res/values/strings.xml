@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">Activity Demo</string>
+    <string name="app_name">Intent Filters</string>
     <string name="next_activity">Next Activity</string>
 </resources>
