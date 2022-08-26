@@ -9,27 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ActivityDemo" >
-        <activity
-            android:name=".StandardActivity"
-            android:label="@string/standard_activity"
-            android:launchMode="standard" />
-        <activity
-            android:name=".SingleTaskActivity"
-            android:label="@string/single_task_activity"
-            android:launchMode="singleTask" />
-        <activity
-            android:name=".SingleTopActivity"
-            android:label="@string/single_top_activity"
-            android:launchMode="singleTop" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>

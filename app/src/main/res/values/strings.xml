@@ -1,6 +1,3 @@
 <resources>
     <string name="app_name">Activity Demo</string>
-    <string name="single_task_activity">Single Task Activity</string>
-    <string name="single_top_activity">Single Top Activity</string>
-    <string name="standard_activity">Standard Activity</string>
 </resources>
