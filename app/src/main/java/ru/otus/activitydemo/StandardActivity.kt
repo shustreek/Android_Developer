@@ -1,11 +1,10 @@
 package ru.otus.activitydemo
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
-import kotlin.math.log
+import androidx.appcompat.app.AppCompatActivity
 
 private const val TAG = "StandardActivity"
 
@@ -24,7 +23,6 @@ class StandardActivity : AppCompatActivity() {
         findViewById<Button>(R.id.single_task_btn).setOnClickListener {
             startActivity(Intent(this, SingleTaskActivity::class.java))
         }
-        setResult(RESULT_CANCELED)
     }
 
     override fun onStart() {
