@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Activity Demo</string>
-    <string name="call_me">Call Me</string>
-    <string name="send_message">Send message</string>
+    <string name="give_me_permission">Give me permission</string>
+    <string name="open_settings">open settings</string>
+    <string name="show_result">Покажи мне результат</string>
+    <string name="show_real_result">Покажи настойщий резултат</string>
+    <string name="i_m_ok">I\'m ok</string>
 </resources>
